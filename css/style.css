@@ -1,0 +1,64 @@
+
+body{
+    font-size: 3.125rem;
+}
+
+.header h2{
+    font-size: 3.125rem;
+    font-weight: bold;
+    color: #aaaaaa;
+}
+
+.inputArea{
+    background-color: #e8e5e5;
+    padding: 0 .625rem;
+    width: 98%;
+    margin: auto;
+}
+
+input::placeholder{
+    font-size: x-large;
+}
+input[type=text]{
+    font-size: 1.25rem;
+}
+input[type=text]:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 .5rem 0 dodgerblue;
+    font-size: 1.25rem;
+}
+input[type=text]::backdrop{
+font-size: 2rem;
+}
+.warning{
+    font-size: x-large;
+    border-radius: .3125rem;
+    padding: .3125rem 0;
+    border: black solid .0625rem;
+    font-weight: bold;
+}
+.btn{
+    padding: .625rem 1.25rem;
+    transition: 0.3s;
+}
+.btn:hover{
+     box-shadow: 2px 5px 3px 0px #393939;
+     opacity: 1;
+}
+
+
+    
+.web-list{
+padding: 1.875rem;
+background-image: linear-gradient(#e8e5e5,#ffffff);
+margin-bottom: 1.5625rem;
+width: 98%;
+    margin: auto;
+}
+
+
+.footer p{
+    font-size: 1.25rem;
+    color: #aaaaaa;
+    font-weight: bold;
+}

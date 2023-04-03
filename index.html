@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+        <div class="container">
+                    <!-- H  E  A  D  E  R -->
+                    <div class=" py-5 border-bottom border-dark header mb-3 ps-5">
+                        <h2>Bookmarker</h2>
+                    </div>
+                    <!-- H  E  A  D  E  R -->
+                    
+                    <!-- B  O  D  Y -->
+                <div class="form-group text-center inputArea my-3 ">
+                    <div class=" text-center py-5 ">
+                        <h2 class="fs-1">Bookmark your favorite sites</h2>
+                    </div>
+                    <label for="siteName" class="my-3 fw-bold fs-4">Site Name</label>
+                    <input type="text" id="siteName" placeholder="Bookmark Name" class="form-control p-3 mb-2">
+                    <div id="warning1" class="d-none"><p class="warning bg-danger " > Name Is Required</p></div>
+                    
+                    <label for="siteUrl" class="my-4 fw-bold fs-4">Site URL</label>
+                    <input type="text" id="siteUrl" placeholder="Website URL" class="form-control p-3 mb-2">
+                    <div id="warning2" class="d-none"><p class="warning bg-danger"> URL Field Is Required</p></div>
+                    
+                    <button class="btn btn-primary my-4  fs-4" onclick="addSites()">submit</button>
+                </div>
+                  <!-- B  O  D  Y -->
+
+
+
+                <div id="myWebsites">
+                    
+
+                </div>
+            
+
+
+
+            <!-- Start  of Footer -->
+            <div class="footer mb-5 py-5 border-top border-dark ps-5">
+                <p class="">© 2019 Bookmarker Inc.</p>
+            </div>
+     </div>
+        
+
+         <!-- End of Footer -->
+
+
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
